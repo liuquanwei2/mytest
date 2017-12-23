@@ -11,7 +11,7 @@ public class Application {
 	public static void main(String[] args) {
 		
 		SpringApplication springApplication = new SpringApplication(Application.class);
-		//test
+		
 		/** 设置关闭横幅模式 */
 		springApplication.setBannerMode(Mode.OFF);
 		
